@@ -8,13 +8,13 @@ QEMU VMs and LXC Containers.
 
 ## Getting Started
 
-In order to get started, use [the documentation included in this repository](docs/index.md). The documentation contains
+In order to get started, use [the documentation included in this repository](https://github.com/Telmate/terraform-provider-proxmox/blob/master/index.md). The documentation contains
 a list of the options for the provider. Moreover, there are some guides available how to combine options and start
 specific VMs.
 
 ## Quick Start
 
-Follow this [install guide](docs/guides/installation.md) to install the plugin.
+Follow this [install guide](https://github.com/Telmate/terraform-provider-proxmox/blob/master/docs/guides/installation.md) to install the plugin.
 
 ## Known Limitations
 
