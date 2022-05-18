@@ -1,0 +1,4 @@
+images/
+*.tfvars
+*.tfstate
+*.tfstate.*

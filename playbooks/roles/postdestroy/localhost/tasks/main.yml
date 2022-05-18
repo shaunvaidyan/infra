@@ -1,0 +1,4 @@
+- name: Remove previous SSH key hosts
+  shell: ssh-keygen -f "/home/tehsnipes/.ssh/known_hosts" -R "{{ item }}"
+  with_inventory_hostnames:
+    - k3s_cluster:children

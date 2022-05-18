@@ -1,0 +1,20 @@
+pm_host="HOST_IP"
+pm_api_token_id="TOKEN_ID"
+pm_api_token_secret="ENTER_TOKEN_SECRET_HERE"
+pm_node_name="INPUT_PROXMOX_NODE_NAME_HERE"
+pm_tls_insecure=true
+pvt_key="INPUT_SSH_KEY_HERE"
+num_k3s_masters=1
+num_k3s_masters_mem=4096
+num_k3s_nodes=3
+num_k3s_nodes_mem=4096
+template_vm_name="ubuntu2004-cloud"
+master_ips=[
+  ""
+]
+worker_ips=[
+  "",
+  "",
+  "",
+  "",
+]
